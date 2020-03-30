@@ -1,7 +1,7 @@
 from typing import List
 
 
-def find_min_arrow_shots(points):
+def find_min_arrow_shots(points: List[List[int]]) -> int:
     if not points:
         return 0
 
