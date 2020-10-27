@@ -13,5 +13,5 @@ def min_start_value(nums: List[int]) -> int:
 
 
 if __name__ == '__main__':
-    n = [3, 2, 3, 4, 2]
+    n = [-3, 2, -3, 4, 2]
     print(min_start_value(n))
